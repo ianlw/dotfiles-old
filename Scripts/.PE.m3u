@@ -1,0 +1,13 @@
+#EXTM3U x-tvg-url="" tv-test="PE.m3u"
+#EXTINF:-1 tvg-id="978" tvg-name="DMJ" tvg-logo="https://i2.paste.pics/cd42f39664a8407ac5071d2ef6842c9e.png", Panamericana | PE
+https://streaming.gometri.com/stream/8000/stream
+#EXTINF:-1 tvg-id="692" tvg-name="Radio Moda te mueve" tvg-logo="https://lh3.googleusercontent.com/-LNqyThL23sA/Xzxu6qOCPqI/AAAAAAAA4qE/6jC3uKCToWUvQFFFL0pl-e9Qomh2LdxawCK8BGAsYHg/s0/2020-08-18.png", Moda te Mueve | PE
+https://14613.live.streamtheworld.com/CRP_MOD_SC?csegid=30008&dist=30008
+#EXTINF:-1 tvg-id="1179" tvg-name="Ritmo Romántica" tvg-logo="https://i2.paste.pics/7787d1d2ab3382cc09d2c3fa9bb8720d.png", Ritmo Romántica | PE
+https://18393.live.streamtheworld.com/CRP_RIT_SC?csegid=20001&dist=20001&ttag=20001
+#EXTINF:-1 tvg-id="1179" tvg-name="Ritmo Romántica" tvg-logo="https://i2.paste.pics/7787d1d2ab3382cc09d2c3fa9bb8720d.png", La zona | PE
+https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio-aw/5fada54116646e098d97e6a5?aid=5faaeb72f92d7b07dfe10181&pid=FqGTIYM7PE3EKHvPApT9GSeCmrJP7Rx8&sid=yd0xd4sQzJvmsj8IVtGPRQQmbGjtotvs&uid=Iry4n9FeVl10eaVPVjX1MPdFNVNmPp8B&es=us-b4-p-e-zs14-audio.cdn.mdstrm.com&ote=1659656342441&ot=wxvcq6EIGGAKgq1UlNTWkA&proto=https&pz=us&cP=128000&awCollectionId=5faaeb72f92d7b07dfe10181&aw_0_1st.playerId=5faaeb72f92d7b07dfe10185&liveId=5fada54116646e098d97e6a5&referer=https%3A%2F%2Fradiosperu.pe%2F
+#EXTINF:-1 tvg-id="1179" tvg-name="Ritmo Romántica" tvg-logo="https://i2.paste.pics/7787d1d2ab3382cc09d2c3fa9bb8720d.png", Estudio 92 | PE
+https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio-aw/5fada553978fe1080e3ac5ea?aid=5faaeb72f92d7b07dfe10181&pid=zMVN3IXhWvQc7rRcnVOZyoJFt6VlPovr&sid=yd0xd4sQzJvmsj8IVtGPRQQmbGjtotvs&uid=Iry4n9FeVl10eaVPVjX1MPdFNVNmPp8B&es=us-b4-p-e-zs14-audio.cdn.mdstrm.com&ote=1659656507527&ot=imKw1jc0FTotzeasWzdNDw&proto=https&pz=us&cP=128000&awCollectionId=5faaeb72f92d7b07dfe10181&aw_0_1st.playerId=5faaeb72f92d7b07dfe10185&liveId=5fada553978fe1080e3ac5ea&referer=https%3A%2F%2Fradiosperu.pe%2F
+#EXTINF:-1 tvg-id="1179" tvg-name="Ritmo Romántica" tvg-logo="https://i2.paste.pics/7787d1d2ab3382cc09d2c3fa9bb8720d.png", Radio Corazón | PE
+https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/5fada514fc16c006bd63370f?aid=5faaeb72f92d7b07dfe10181&pid=m4GmsKwPDgD0aVRxVVPJmrVaGfh6QJ7s&sid=yd0xd4sQzJvmsj8IVtGPRQQmbGjtotvs&uid=Iry4n9FeVl10eaVPVjX1MPdFNVNmPp8B&es=us-b4-p-e-qg12-audio.cdn.mdstrm.com&ote=1659656544825&ot=GjorqilrCq0axRfiAdvm1w&proto=https&pz=us&cP=128000&awCollectionId=5faaeb72f92d7b07dfe10181&aw_0_1st.playerId=5faaeb72f92d7b07dfe10185&liveId=5fada514fc16c006bd63370f&referer=https%3A%2F%2Fradiosperu.pe%2F
