@@ -9,6 +9,18 @@
 # wm independent hotkeys
 #
 
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# rofi-spotify
+    # mod5 = ShifGr
+mod5 +  g
+    sh /home/ian/.config/rofi/search/web.sh
+
+mod5 + s
+    /home/ian/git_clone/Rofi-Scripts/rofi/music/music
+
 # terminal emulator
 super + Return
 	kitty
@@ -17,18 +29,26 @@ super + shift + Return
     alacritty
 
 # rofi launcher
+	# rofi -i -show drun -show-icons
 super + @space
-	rofi -i -show drun -show-icons
+    sh /home/ian/.config/rofi/launchers/type-5/launcher.sh
 
 super + ctrl + @space
-    rofi -show power-menu -modi power-menu:rofi-power-menu
+    sh $HOME/.config/rofi/powermenu/launcher.sh
+    # rofi -show power-menu -modi power-menu:rofi-power-menu
 
 super + shift + @space
     rofi -show run
 
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
+mod5 + @space
+    rofi -modi emoji -show emoji -config .config/rofi/emoji/config-description.rasi
+
+alt + @space
+    sh $HOME/.config/rofi/emoji/emoji.sh
+
+ctrl + @space
+    sh $HOME/.config/rofi/run-command/command.sh &
+
 
 # reload dunst  and send test message
 super + shift + Escape
@@ -52,7 +72,7 @@ XF86AudioPlay
 XF86AudioPlay + shift
     playerctl --player=edge play-pause
 XF86AudioPlay + ctrl
-    playerctl --player=spotify,cmus play-pause
+    playerctl --player=harmonoid,spotify,cmus play-pause
 #    playerctl --player=spotify next 2> /dev/null || playerctl --player=cmus next  && dunstify "$(cmus-remote -Q | grep -e 'tag title ' | sort -r | sed -e 's/tag title //')" "$(cmus-remote -Q | grep -e 'tag artist ' | sort -r | sed -e 's/tag artist //' | tr -d '\n')"
 XF86AudioNext
     playerctl next
@@ -73,13 +93,17 @@ XF86Calculator
 Print
     sh /home/ian/.config/polybar/scripts/screenshot/script-shot.sh -a
 
+# Screenshot save in <Imágenes/Screenshot> diretory
+shift + Print
+    sh /home/ian/.config/polybar/scripts/screenshot/script-shot.sh -p
+
 # Color picker
 ctrl + Print
     sh /home/ian/color-picker
 
 # Clipboard
 super + v
-    gpaste-client ui
+    sh /home/ian/.config/rofi/clipboard/clipboard.sh
 
 # OCR - clipboard text on imagen
 ctrl + shift + Print 
