@@ -1,0 +1,50 @@
+
+*:not(.path-bar-button):not(.rubberband):not(separator) {
+	border: none;
+}
+
+.thunar * statusbar {
+	margin-bottom: 0px
+}
+
+.thunar location-toolbar {
+	margin-right: 0px;
+	margin-top: 0px
+}
+.thunar location-toolbar * widget box entry {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.thunar location-toolbar {
+	margin-left: 60px;
+}
+
+
+.thunar > grid {
+    margin-top: 20px;
+    color: #000000;
+    background: #000000;
+}
+
+
+/*
+window.thunar scrolledwindow.sidebar {
+    border-radius: 10px;
+    background-color: red;
+}
+
+window.thunar scrolledwindow.sidebar treeview.view {
+    background: transparent;
+}
+
+window.thunar scrolledwindow.standard-view {
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+window.thunar scrolledwindow.standard-view widget.view {
+    background: transparent;
+}
+
+*/
